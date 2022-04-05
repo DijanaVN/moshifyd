@@ -28,6 +28,87 @@ color: var(--color-body);
 font-size: 2.4rem;
 line-height: 1.5;
 }
+/*links*/
+a{
+  text-decoration: none;
+}
+.link-arrow{
+  color: var(--color-accent);
+  font-size: 2rem;
+  text-transform: uppercase;  font-weight: bold
+
+}
+
+.link-arrow::after{
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
+.link-arrow:hover::after{
+  margin-left: 10px;
+
+}
+/*badges*/
+.badge{
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+  color: white;
+}
+.badge-primary{
+  background-color: var(--color-primary);
+
+
+}
+.badge-secondary{
+  background-color: var(--color-secondary);
+}
+.badge-small{
+  font-size: 1.6rem;
+}
+/*lists*/
+.list{
+  font-size: 2.4rem;
+  list-style-type: none;
+  padding-left: 0;
+  color: var(--color-headings);
+}
+.list-inline .list_item{
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.list-tick {
+  list-style-image: url(../images/tick.svg);
+  padding-left: 3rem;
+}
+.list-tick .list_item{
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;}
+  /*icons*/
+  .icon{
+    width: 5rem;
+     height: 5rem;
+  }
+  .icon-primery{
+    fill: var(--color-primary);
+   
+
+  }
+  .icon-container{
+    background-color:  #f3f9fa;
+    display: inline-flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 6.4rem;
+    height: 6.4rem;
+
+  }
+}
+/*Topography*/
 @media screen and (min-width:1024px){
   body{
     font-size: 1.8rem;
@@ -37,8 +118,30 @@ line-height: 1.5;
   
   }
   h2{
-    font-size: 4rem;
+    font-size: 4rem;}
   h3{
     font-size: 2.4rem;
+  }
+}
+/*links*/
+  @media screen and (min-width:1024px){
+  .link-arrow{
+    font-size: 1.5rem;
+  }
+}
+
+/*badge*/
+@media screen and (min-width:1024px){
+  .badge{
+    font-size: 1.5rem;
+  }
+  .badge-small{
+    font-size: 1.2rem;
+  }
+}
+/*list*/
+@media screen and (min-width:1024px){
+  .list_item{
+    font-size: 1.6rem;
   }
 }
