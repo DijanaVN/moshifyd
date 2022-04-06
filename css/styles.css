@@ -88,16 +88,16 @@ a{
   padding-left: 0.5rem;
   margin-bottom: 1rem;}
   /*icons*/
-  .icon{
+.icon{
     width: 5rem;
      height: 5rem;
   }
-  .icon-primery{
+.icon-primery{
     fill: var(--color-primary);
    
 
   }
-  .icon-container{
+.icon-container{
     background-color:  #f3f9fa;
     display: inline-flex;
     border-radius: 100%;
@@ -105,9 +105,48 @@ a{
     align-items: center;
     width: 6.4rem;
     height: 6.4rem;
-
-  }
+    }
+    /*buttons*/
+.btn{
+  color: white;
+  font-size: 1rem;
+  padding: 2rem 3rem;
+  border: 0;
+  border-radius: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
+.btn-secondary{
+  background-color: var(--color-secondary);
+  
+}
+.btn .btn-search{
+  fill: white;
+  height: 20px;
+  width: 20px;
+  padding-right:1rem;
+ 
+}
+.btn-accent{
+  background-color: var(--color-accent);
+}
+.btn-border{
+  background-color: white;
+  border: 0.2rem solid var(--color-headings);
+  color: var(--color-headings);
+}
+.btn-border:hover{
+  background: var(--color-headings);
+  color: white;
+}
+.btn-accent:hover{
+  background-color: #fa491b;
+}
+.btn-secondary:hover{
+  background-color:#4ae2fd ;}
+
+
 /*Topography*/
 @media screen and (min-width:1024px){
   body{
@@ -144,4 +183,9 @@ a{
   .list_item{
     font-size: 1.6rem;
   }
+}
+/*buttons*/
+@media screen and (min-width:1024px) {
+  .btn{ font-size: 1.5rem;}
+  
 }
