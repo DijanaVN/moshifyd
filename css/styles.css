@@ -107,15 +107,21 @@ a{
     height: 6.4rem;
     }
     /*buttons*/
+    *,*::after,*::before{
+      box-sizing: border-box;
+    } /*ova e za a href da bide 100% width kako buttonite*/
 .btn{
   color: white;
-  font-size: 1rem;
-  padding: 2rem 3rem;
+  font-size: 1.8rem;
+  padding: 1rem 4vw;
   border: 0;
   border-radius: 5rem;
   font-weight: 600;
   text-transform: uppercase;
   white-space: nowrap;
+  text-align: center;
+  margin: 0.5rem 0;
+  outline: 0;
 }
 .btn-secondary{
   background-color: var(--color-secondary);
@@ -123,9 +129,10 @@ a{
 }
 .btn .btn-search{
   fill: white;
-  height: 20px;
-  width: 20px;
-  padding-right:1rem;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
  
 }
 .btn-accent{
@@ -136,6 +143,10 @@ a{
   border: 0.2rem solid var(--color-headings);
   color: var(--color-headings);
 }
+.btn-block{
+  width: 100%;
+  display: inline-block;
+}
 .btn-border:hover{
   background: var(--color-headings);
   color: white;
@@ -145,7 +156,39 @@ a{
 }
 .btn-secondary:hover{
   background-color:#4ae2fd ;}
-
+/*input*/
+.input{
+  border: 0.1rem solid lightgray;
+  width: 100vw;
+  border-radius: 5rem;
+  padding: 2rem 4rem;
+  color: var(--color-headings);
+  outline: 0;
+  font-size: 2rem;
+}
+::placeholder{
+  color:#cdcbd7; 
+  
+}
+.input-group{
+  padding: 0 1rem;
+  display: flex;
+  box-shadow: 0 0 30px 10px lightgray;
+  border: 0;
+  
+}
+.btn .input-button{
+  width: 0;
+  border: 0;
+  border-radius: 5rem;
+  flex-grow: 1;
+  padding-left: 3rem;
+  outline: 0;
+}
+.btn-input{
+  width: auto;
+  font-size: 1.5rem;
+}
 
 /*Topography*/
 @media screen and (min-width:1024px){
@@ -188,4 +231,8 @@ a{
 @media screen and (min-width:1024px) {
   .btn{ font-size: 1.5rem;}
   
+}
+/*input*/
+@media screen and (min-width:1024px) {
+  .input{font-size: 1.5rem;}
 }
