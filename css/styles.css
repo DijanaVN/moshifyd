@@ -189,6 +189,79 @@ a{
   width: auto;
   font-size: 1.5rem;
 }
+/*cards*/
+.card{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  margin: 5rem;
+  box-shadow: 0 0 20px 10px lightgrey;
+  overflow: hidden;
+}
+.card .list-tick{
+  padding: 4rem;
+  margin: 0;
+}
+.card .btn-border{
+  margin:0 0 3.5rem 3.5rem;
+  flex-grow: 1;
+  width: 85%;
+
+}
+
+.card-header{
+background-color: var(--color-secondary);
+color: white;
+padding: 3rem 3.5rem 1rem 3.5rem;
+
+}
+.card .card-primary{
+    background-color: var(--color-primary);
+  }
+.card-primary .card-badge{
+    background-color: #126de4;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;}
+.card .list-tick {
+  font-weight: 500;
+}    
+
+.pbottom{
+  margin-bottom: 0;
+}
+.big{
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+.pbold{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.psmall{
+  font-size: 2rem;
+}
+.card-badge{
+  background-color: #02cdf1;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  
+}
+ /*grid*/
+
+.grid{
+  display: grid;
+}
+
+
+
+.grid .grid--1x3{
+
+  grid-template-rows: 1fr, 1fr, 1fr;
+}
+
 
 /*Topography*/
 @media screen and (min-width:1024px){
@@ -235,4 +308,17 @@ a{
 /*input*/
 @media screen and (min-width:1024px) {
   .input{font-size: 1.5rem;}
+}
+
+@media screen and ( min-width:768px) {
+  .grid--1x2{
+    grid-template-columns: repeat(2, 1fr);
+    }
+  
+}
+@media screen and ( min-width:1024px) {
+  .grid--1x3{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+  
 }
