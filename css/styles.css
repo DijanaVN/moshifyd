@@ -277,6 +277,25 @@ padding: 3rem 3.5rem 1rem 3.5rem;
 }
 
 
+
+/*media object*/
+
+.media{
+  display: flex;
+}
+.media-title{
+  margin-top: 0;
+}
+.media-image{
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+ 
+}
+.media-image .icon-primery{
+  fill: #02cdf1;
+}
+
 /*Topography*/
 @media screen and (min-width:1024px){
   body{
