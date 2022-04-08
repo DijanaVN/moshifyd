@@ -295,6 +295,42 @@ padding: 3rem 3.5rem 1rem 3.5rem;
 .media-image .icon-primery{
   fill: #02cdf1;
 }
+/*quotes*/
+.quotes-paragraph{
+  font-style: italic;
+  font-size: 3rem;
+  color:#5c5577 ;
+}
+.author{
+  color: var(--color-headings);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.company{
+  font-size: 2rem;
+}
+.quotes-paragraph::before{
+  content: open-quote;
+}
+.quotes-paragraph::after{
+  content: close-quote;
+}
+.quote-icon{
+  position: relative;
+  bottom: 25px;
+}
+
+.testimonials{
+margin: 2.5rem;
+box-shadow: 0 0 20px 10px lightgrey;
+}
+.testimonials-img{
+  display: flex;
+  justify-self: center;
+  padding: 4rem;
+  width: 100%;
+}
 
 /*Topography*/
 @media screen and (min-width:1024px){
@@ -355,3 +391,43 @@ padding: 3rem 3.5rem 1rem 3.5rem;
     }
   
 }
+/*testimonials*/
+@media screen and (min-width:1024px) {
+  .quotes-paragraph{
+    font-size: 2.4rem;
+    
+  }
+  .testimonials-img{
+    justify-self: left;
+  }
+  .quotes{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: left;
+    margin-left: 0;
+  }
+  .author{
+    font-size: 2.4rem;
+  }
+  .company{
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width:768px){
+  .quotes-paragraph{
+    font-size: 2rem;}
+
+    .author{
+      font-size: 2rem;
+    }
+    .company{
+      font-size: 1.6rem;}
+   .quotes{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: left;
+        margin-left: 0;}
+
+    }
