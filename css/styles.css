@@ -320,17 +320,35 @@ padding: 3rem 3.5rem 1rem 3.5rem;
   position: relative;
   bottom: 25px;
 }
-
+/*testimonials*/
 .testimonials{
 margin: 2.5rem;
 box-shadow: 0 0 20px 10px lightgrey;
+border-radius: 1rem;
 }
-.testimonials-img{
-  display: flex;
-  justify-self: center;
-  padding: 4rem;
+.testimonials-image{
   width: 100%;
 }
+.testimonials-img{
+  position: relative;
+  padding: 3rem;
+ 
+  
+}
+.testimonials-img  .icon-container-accent{
+  position: absolute;
+  top: 5rem;
+  right: -2px;
+  background-color: var(--color-accent);
+  fill: white;
+  padding:1.8rem;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
 
 /*Topography*/
 @media screen and (min-width:1024px){
@@ -413,6 +431,7 @@ box-shadow: 0 0 20px 10px lightgrey;
   .company{
     font-size: 1.6rem;
   }
+
 }
 @media screen and (min-width:768px){
   .quotes-paragraph{
@@ -428,6 +447,4 @@ box-shadow: 0 0 20px 10px lightgrey;
         flex-direction: column;
         align-self: center;
         justify-self: left;
-        margin-left: 0;}
-
-    }
+        margin-left: 0;}}
