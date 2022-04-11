@@ -87,25 +87,25 @@ a{
 .list-tick .list_item{
   padding-left: 0.5rem;
   margin-bottom: 1rem;}
+
   /*icons*/
 .icon{
     width: 5rem;
-     height: 5rem;
+    height: 5rem;
   }
 .icon-primery{
     fill: var(--color-primary);
-   
-
   }
 .icon-container{
     background-color:  #f3f9fa;
-    display: inline-flex;
+    display:inline-flex;  
     border-radius: 100%;
     justify-content: center;
     align-items: center;
     width: 6.4rem;
     height: 6.4rem;
     }
+
     /*buttons*/
     *,*::after,*::before{
       box-sizing: border-box;
@@ -347,8 +347,69 @@ border-radius: 1rem;
   align-items: center;
  
 }
+/*callout*/
+.callout{
+  background-color: var(--color-primary);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  
+}
+.callout-text>h3,p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.callout-text>h3{
+  margin-top: 0;
+  font-size: 4rem;
+}
+.callout>button{
+width: 60%;
+align-self: center;
+padding: 3rem;
+font-size: 1.8rem;
+}
 
+/*collapsible*/
+.collapsible{
+  padding: 2rem;
+}
+.call-header{
+  position: relative;
+}
 
+.chevron{
+  position: absolute;
+  right: 0;
+  width: 6rem;
+  transform: rotate(-90deg);
+  transition: all 0.3s;
+}
+.collapsible-header{
+  font-size: 3rem;
+  margin-top: 0;
+  font-size: 2rem;
+}
+.collapsible-body{
+  padding-top: 1.5rem;
+  font-size:2.4rem;
+  opacity: 0;
+  max-height:0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.collapsible--expanded .chevron {
+  transform: rotate(0);
+  width: 6rem;
+} 
+.collapsible--expanded .collapsible-body{
+max-height: 100vh;
+opacity: 40%;
+}
 
 /*Topography*/
 @media screen and (min-width:1024px){
@@ -447,4 +508,48 @@ border-radius: 1rem;
         flex-direction: column;
         align-self: center;
         justify-self: left;
-        margin-left: 0;}}
+        margin-left: 0;}
+  }
+  /*callout*/
+  @media screen and (min-width:1024px){
+    .callout{
+      flex-direction: row;
+  }
+  .callout-text>h3,p{
+    align-self: left;
+    text-align: left;
+  }
+  .callout-text>h3{
+    justify-content:flex-start ;
+    margin-top: 0;
+  }
+  .callout-text>p{
+  
+    font-size: 2rem;}
+
+  .callout>button{
+  
+  align-self: center;
+  padding: 2.5rem 3rem;
+  font-size: 1.8rem;
+  margin-left: 6rem;
+  }
+}
+
+/*collapsible*/
+@media screen and (min-width:1024px){
+
+.chevron{
+  display: none;
+
+}
+.collapsible-header{
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.collapsible-body{
+  font-size:1.5rem;}
+  
+
+}
