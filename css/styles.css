@@ -76,7 +76,7 @@ a{
   color: var(--color-headings);
 }
 .list-inline .list_item{
-  display: inline-block;
+  display: block;
   margin-right: 2rem;
 }
 
@@ -241,6 +241,7 @@ padding: 3rem 3.5rem 1rem 3.5rem;
 .card .list-tick {
   font-weight: 500;
 }    
+
 
 .pbottom{
   margin-bottom: 0;
@@ -410,7 +411,110 @@ font-size: 1.8rem;
 max-height: 100vh;
 opacity: 40%;
 }
+/*navigation links*/
 
+.navigationlist{
+ background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navlist_item{
+  padding: 0.5rem ;
+  color: rgba(245, 245, 245, 0.712);
+  border-bottom: 1px solid darkgrey;}
+
+.navnav{
+ margin: 0;
+ width: 100%;}
+
+.navicon{
+  fill: rgba(245, 245, 245, 0.712);
+}
+.navlist_item> a{
+  margin-top: 2rem;
+  color:#d2cfd9;
+  opacity: 0.9;
+  }
+  .navlist_item>a:hover{
+    color: white;
+    opacity: 1;
+    transition: color 0.3s;
+
+  }
+  .navigationlist .collapsible{
+    padding: 0;
+  }
+  .collapsible--expanded .navicon{
+    padding: 0;
+  fill: white;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+  }
+  .iconlogo{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 8rem;
+    top: 1rem;
+    }
+  .imglogo{
+    width: 58px;
+    position: absolute;
+    top:-0.5rem;
+    left :-8rem;
+  }
+  /*blocks*/
+  .block--dark{
+    padding: 6rem;
+    color: white;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0%, 100% 67%, 0% 100%);
+  }
+  .block--dark .block__heading{
+    color: white;
+  }
+  .block__paragraf-dark{
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    text-align: left;}
+
+    .block--skewed-left{
+      padding: 10rem 2rem;
+      color: white;
+      background-color: black;
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 67%);;
+    }
+    .block--skewed-left .block__heading{
+      color: white;}
+
+    .block__paragraf-left{
+      font-size: 2rem;
+      padding-bottom: 5rem;
+      text-align: left;}
+      .block{
+        padding: 8rem;
+      }
+    .block .block__header{
+      text-align:center;
+      
+    }
+   
+      
+    .block__paragraf{
+      text-align: center;
+      color: var(--color-body);
+    }
+    .block--dark-one{
+      padding: 6rem;
+      color: white;
+      background-color: black;}
+  .block--dark-one .block__heading{
+        color: white;
+      }
 /*Topography*/
 @media screen and (min-width:1024px){
   body{
@@ -550,6 +654,26 @@ opacity: 40%;
 }
 .collapsible-body{
   font-size:1.5rem;}
-  
+}
+/*Navigation lists*/
+@media screen and (min-width:768px){
+ .navlist_item{
+ border: none;
+ padding: 0 2rem;
 
+   }
+ 
+ .navnav{
+   width: auto;
+   display: flex;
+   margin: 0;
+   font-size: 1.6rem;
+   opacity: 1;
+  }
+  .iconlogo{
+    font-size: 3rem;
+  }
+ .navicon{
+   display: none;
+ }
 }
