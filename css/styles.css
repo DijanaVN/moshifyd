@@ -217,6 +217,7 @@ background-color: var(--color-secondary);
 color: white;
 padding: 3rem 3.5rem 1rem 3.5rem;
 
+
 }
 .card .card-primary{
     background-color: var(--color-primary);
@@ -241,10 +242,17 @@ padding: 3rem 3.5rem 1rem 3.5rem;
 .card .list-tick {
   font-weight: 500;
 }    
-
+.month{
+  position: absolute;
+  left: 10rem;
+  top: 4rem;
+}
 
 .pbottom{
   margin-bottom: 0;
+  justify-content: left;
+  position: relative;
+  vertical-align: bottom;
 }
 .big{
   font-size: 6rem;
@@ -253,15 +261,20 @@ padding: 3rem 3.5rem 1rem 3.5rem;
 .pbold{
   font-weight: 600;
   margin-bottom: 0;
+  justify-content: left;
 }
 .psmall{
   font-size: 2rem;
+  justify-content: left;
 }
 .card-badge{
   background-color: #02cdf1;
   margin-left: 2rem;
   text-transform: uppercase;
   font-size: 1.6rem;
+  position: absolute;
+  left: 18rem;
+  top: 2rem;
   
 }
  /*grid*/
@@ -504,9 +517,7 @@ opacity: 40%;
     .block .block__header{
       text-align:center;
       
-    }
-   
-      
+    }  
     .block__paragraf{
       text-align: center;
       color: var(--color-body);
@@ -521,7 +532,48 @@ opacity: 40%;
 /*hiro*/
 .logopicture{
   width: 100%;
+  padding-bottom: 8rem;
 }
+/*poslehiro elementot*/
+.vtordelbutton{
+  width: 100%;
+}
+.vtordelblock{
+  padding: 0 2rem;
+  margin-bottom: 12rem;
+}
+.inputsearch{
+  border: 0;
+  width: 100%;
+  border-radius: 5rem;
+  padding-left: 2rem;
+}
+.vtorheading{
+  font-size: 4rem;
+  color: var(--color-headings);
+}
+.block__paragraf-vtor{
+  color: var(--color-body);
+}
+.badgevtordel{
+  color: var(--color-headings);
+}
+.vtorlisti{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.badgevtordel:hover{
+  background: var(--color-secondary);
+  color: white;
+}
+.notick{
+  list-style-image: none;
+  color: white;
+}
+
 /*Topography*/
 @media screen and (min-width:1024px){
   body{
@@ -575,9 +627,10 @@ opacity: 40%;
     }
   
 }
-@media screen and ( min-width:1024px) {
+@media screen and ( min-width:1100px) {
   .grid--1x3{
     grid-template-columns: 1fr 1fr 1fr;
+    
     }
   
 }
@@ -774,4 +827,72 @@ opacity: 40%;
     max-width: fit-content;
     padding: 2rem 3rem;
  }
+  }
+  /*poslehiro elementot*/
+  @media screen and (min-width:1024px){
+    .vtordelblock{
+      padding: 0 20rem;
+    }
+    .block__paragraf-vtor{
+      padding: 2rem 15rem;
+      color: var(--color-body);
+      text-align: center;
+  }
+  @media screen and (min-width:1700px){
+    .vtordelbutton{
+      width: 100%;
+    }
+    .vtordelblock{
+      padding: 0 40rem;
+    }
+    .inputsearch{
+      border: 0;
+      width: 100%;
+      border-radius: 5rem;
+      padding-left: 2rem;
+    }
+    .vtorheading{
+      font-size: 4rem;
+      color: var(--color-headings);
+    }
+    .block__paragraf-vtor{
+      padding: 2rem 15rem;
+      color: var(--color-body);
+      text-align: center;
+    }
+  }
+  /*cards*/
+
+  @media screen and (min-width:600px){
+    .grid--1x3{
+      margin-left: 10rem;
+      margin-right: 10rem ;
+    }
+    .card{
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .popup:hover{
+      transform: scale(1.2);
+    }
+  }
+  @media screen and (min-width:1100px){
+    .grid--1x3{
+      margin-left: 10rem;
+      margin-right: 10rem ;
+    }
+    .card{
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .month{
+      font-size: 1.5rem;
+      top:4rem;
+    }
+    .card-badge{
+      left: 14rem;
+      top: 4rem;
+      font-size: 1.3rem;
+      padding: 0.2rem 1rem;
+    }
   }
