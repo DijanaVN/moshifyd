@@ -10,7 +10,7 @@
 80C:\Users\Laptop\Desktop\Moshifyd\node_modules\type-fest\ts41\delimiter-case.d.ts132954593528521872 0
 64C:\Users\Laptop\Desktop\Moshifyd\node_modules\utility-types\dist132954593529614499 1
 93C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\transformer-json\lib\JSONTransformer.js132954593525503023 0
-37C:\Users\Laptop\Desktop\Moshifyd\dist132955271758749621 1
+37C:\Users\Laptop\Desktop\Moshifyd\dist132955301653888149 1
 105C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\.npmignore132954593525393001 0
 87C:\Users\Laptop\Desktop\Moshifyd\node_modules\terser\node_modules\source-map\lib\url.js132954593529644496 0
 60C:\Users\Laptop\Desktop\Moshifyd\node_modules\domelementtype132954593527679043 1
@@ -31,7 +31,7 @@
 92C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\lib\requests\ValidationRequest.js132954593534644496 0
 54C:\Users\Laptop\Desktop\Moshifyd\node_modules\error-ex132954593526023145 1
 63C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\graph\lib132954593529111988 1
-43C:\Users\Laptop\Desktop\Moshifyd\components132955266330753999 1
+43C:\Users\Laptop\Desktop\Moshifyd\components132955284777372326 1
 82C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\brotli.js132954593532844085 0
 65C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dict\dict2.txt132954593538764720 0
 66C:\Users\Laptop\Desktop\Moshifyd\node_modules\node-addon-api\tools132954593529884549 1
@@ -63,7 +63,7 @@
 90C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\input-datetime.js132954593538164577 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\d3132954543768007175 1
 90C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\prebuilds\win32-x64\electron.abi99.node132954593535122866 0
-43C:\Users\Laptop\Desktop\Moshifyd\index.html132955266472838896 0
+43C:\Users\Laptop\Desktop\Moshifyd\index.html132955284991326702 0
 62C:\Users\Laptop\Desktop\Moshifyd\node_modules\error-ex\LICENSE132954593525723096 0
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\plugins\convertStyleToAttrs.js132954593529914572 0
 95C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\link-rel-preconnect.js132954593538994780 0
@@ -533,6 +533,7 @@
 60C:\Users\Laptop\Desktop\Moshifyd\node_modules\yaml\util.d.ts132954593532304098 0
 79C:\Users\Laptop\Desktop\Moshifyd\node_modules\css-tree\lib\lexer\match-graph.js132954593532894106 0
 86C:\Users\Laptop\Desktop\Moshifyd\node_modules\@swc\helpers\lib\_array_like_to_array.js132954593525853101 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\index.1a913e67.js132955301653611027 0
 103C:\Users\Laptop\Desktop\Moshifyd\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\050-modules.md132954593532544016 0
 59C:\Users\Laptop\Desktop\Moshifyd\node_modules\yaml\util.mjs132954593532143926 0
 66C:\Users\Laptop\Desktop\Moshifyd\node_modules\yaml\types\binary.js132954593526043142 0
@@ -703,14 +704,14 @@
 62C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\lib\svgo.js132954593532914100 0
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\test\fixtures\main-mjs132954593535132845 1
 76C:\Users\Laptop\Desktop\Moshifyd\node_modules\xxhash-wasm\esm\xxhash-wasm.js132954593525593040 0
-55C:\Users\Laptop\Desktop\Moshifyd\dist\tick.09ba787a.svg132955271758296832 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\tick.09ba787a.svg132955301653601046 0
 74C:\Users\Laptop\Desktop\Moshifyd\node_modules\mdn-data\css\properties.json132954593529514467 0
 80C:\Users\Laptop\Desktop\Moshifyd\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map132954593527333414 0
 73C:\Users\Laptop\Desktop\Moshifyd\node_modules\node-addon-api\package.json132954593529334417 0
 60C:\Users\Laptop\Desktop\Moshifyd\node_modules\whatwg-url\lib132954593528009105 1
 63C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data132954593536773828 1
 89C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\passwordrules.js132954593540263516 0
-55C:\Users\Laptop\Desktop\Moshifyd\dist\fast.8cede02c.jpg132955271758286804 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\fast.8cede02c.jpg132955301653601046 0
 73C:\Users\Laptop\Desktop\Moshifyd\node_modules\weak-lru-cache\package.json132954593527443491 0
 100C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\css-indeterminate-pseudo.js132954593534834525 0
 72C:\Users\Laptop\Desktop\Moshifyd\node_modules\csso\lib\replace\Number.js132954593531253763 0
@@ -1084,7 +1085,7 @@
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\optimizer-svgo\package.json132954593526393224 0
 74C:\Users\Laptop\Desktop\Moshifyd\node_modules\csso\lib\clean\WhiteSpace.js132954593531883875 0
 91C:\Users\Laptop\Desktop\Moshifyd\node_modules\htmlnano\lib\modules\removeEmptyAttributes.js132954593530110958 0
-56C:\Users\Laptop\Desktop\Moshifyd\dist\index.2e759616.css132955271758296832 0
+56C:\Users\Laptop\Desktop\Moshifyd\dist\index.2e759616.css132955301653611027 0
 90C:\Users\Laptop\Desktop\Moshifyd\node_modules\terser\node_modules\source-map\source-map.js132954593527153401 0
 62C:\Users\Laptop\Desktop\Moshifyd\node_modules\mdn-data\LICENSE132954593524917713 0
 93C:\Users\Laptop\Desktop\Moshifyd\node_modules\terser\node_modules\source-map\lib\array-set.js132954593527523475 0
@@ -1152,7 +1153,7 @@
 66C:\Users\Laptop\Desktop\Moshifyd\node_modules\json5\dist\index.mjs132954593529324417 0
 80C:\Users\Laptop\Desktop\Moshifyd\node_modules\terser\lib\compress\reduce-vars.js132954593531893882 0
 71C:\Users\Laptop\Desktop\Moshifyd\node_modules\node-addon-api\napi-inl.h132954593527999110 0
-48C:\Users\Laptop\Desktop\Moshifyd\dist\index.html132955271758296832 0
+48C:\Users\Laptop\Desktop\Moshifyd\dist\index.html132955301653611027 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\23132954543763991509 1
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\terser\lib\compress\tighten-body.js132954593532163932 0
 84C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\jpeg2000.js132954593538524676 0
@@ -1216,7 +1217,7 @@
 58C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\LICENSE132954593524992896 0
 63C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\package.json132954593532994111 0
 56C:\Users\Laptop\Desktop\Moshifyd\node_modules\json5\dist132954593529202003 1
-55C:\Users\Laptop\Desktop\Moshifyd\dist\easy.03095825.jpg132955271758296832 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\easy.03095825.jpg132955301653601046 0
 78C:\Users\Laptop\Desktop\Moshifyd\node_modules\cosmiconfig\dist\cacheWrapper.js132954593525463031 0
 88C:\Users\Laptop\Desktop\Moshifyd\node_modules\entities\lib\generated\decode-data-html.js132954593526533256 0
 92C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\web-app-manifest.js132954593543036226 0
@@ -1298,7 +1299,7 @@
 73C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\fs\lib\index.js.map132954593529364430 0
 69C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\lib\svgo\config.js132954593529294420 0
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\svgo\lib\svgo\css-select-adapter.js132954593530170978 0
-55C:\Users\Laptop\Desktop\Moshifyd\dist\logo.df8a6249.png132955271758296832 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\logo.df8a6249.png132955301653601046 0
 86C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\v8\v8-fast-api-calls.h132954593533814302 0
 102C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest.c132954593532554026 0
 84C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\watcher\prebuilds\darwin-arm64132954593531021176 1
@@ -1734,6 +1735,7 @@
 87C:\Users\Laptop\Desktop\Moshifyd\node_modules\msgpackr-extract-win32-x64\node.napi.node132954593527443491 0
 77C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\regions\MR.js132954593539583351 0
 82C:\Users\Laptop\Desktop\Moshifyd\node_modules\msgpackr-extract-win32-x64\README.md132954593525633049 0
+59C:\Users\Laptop\Desktop\Moshifyd\dist\index.1a913e67.js.map132955301653611027 0
 67C:\Users\Laptop\Desktop\Moshifyd\node_modules\msgpackr\benchmark.md132954593529304435 0
 68C:\Users\Laptop\Desktop\Moshifyd\node_modules\msgpackr\node-index.js132954593528189147 0
 95C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\prebuilds\darwin-arm64\node.abi93.glibc.node132954593537814512 0
@@ -1924,7 +1926,7 @@
 91C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\custom-elements.js132954593535933628 0
 86C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\lmdb-data-v1\libraries132954593525112936 1
 94C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb132954593538794750 1
-58C:\Users\Laptop\Desktop\Moshifyd\dist\chevron.bd30ea1b.svg132955271758296832 0
+58C:\Users\Laptop\Desktop\Moshifyd\dist\chevron.bd30ea1b.svg132955301653601046 0
 76C:\Users\Laptop\Desktop\Moshifyd\node_modules\electron-to-chromium\README.md132954593529131980 0
 102C:\Users\Laptop\Desktop\Moshifyd\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE132954593528691893 0
 73C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\plugin\package.json132954593526373231 0
@@ -2756,6 +2758,7 @@
 77C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\regions\CZ.js132954593536013649 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\44132954543765971991 1
 77C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\regions\DE.js132954593536073678 0
+51C:\Users\Laptop\Desktop\Moshifyd\components\main.js132539214570000000 0
 89C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\css-boxshadow.js132954593534064365 0
 96C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js132954593529664490 0
 77C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\regions\DJ.js132954593536163686 0
@@ -3069,7 +3072,7 @@
 90C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\filereadersync.js132954593536873850 0
 86C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\filesystem.js132954593536883844 0
 83C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\flexbox.js132954593536983892 0
-60C:\Users\Laptop\Desktop\Moshifyd\dist\index.cee20f76.css.map132955271758639624 0
+60C:\Users\Laptop\Desktop\Moshifyd\dist\index.cee20f76.css.map132955301653637790 0
 102C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\focusoptions-preventscroll.js132954593537043889 0
 97C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\font-family-system-ui.js132954593537053893 0
 82C:\Users\Laptop\Desktop\Moshifyd\node_modules\@swc\helpers\lib\_read_only_error.js132954593532223943 0
@@ -3105,7 +3108,7 @@
 95C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\http-live-streaming.js132954593537804513 0
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\http2.js132954593537814512 0
 81C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\http3.js132954593537824519 0
-60C:\Users\Laptop\Desktop\Moshifyd\dist\index.2e759616.css.map132955271758296832 0
+60C:\Users\Laptop\Desktop\Moshifyd\dist\index.2e759616.css.map132955301653611027 0
 91C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\iframe-seamless.js132954593537884515 0
 64C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\fs\LICENSE132954593525082925 0
 98C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\prefers-reduced-motion.js132954593540565476 0
@@ -3162,7 +3165,7 @@
 93C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\media-session-api.js132954593539313305 0
 100C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js132954593539323318 0
 89C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\mediarecorder.js132954593539333308 0
-57C:\Users\Laptop\Desktop\Moshifyd\dist\sprite.acdceccb.svg132955271758286804 0
+57C:\Users\Laptop\Desktop\Moshifyd\dist\sprite.acdceccb.svg132955301653601046 0
 92C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\meta-theme-color.js132954593539373313 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\6f132954543767035653 1
 80C:\Users\Laptop\Desktop\Moshifyd\node_modules\caniuse-lite\data\features\midi.js132954593539433331 0
@@ -4101,7 +4104,7 @@
 78C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\src\public\Asset.js132954593529724523 0
 79C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\src\public\Bundle.js132954593531041176 0
 79C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\src\public\Config.js132954593531893882 0
-58C:\Users\Laptop\Desktop\Moshifyd\dist\support.cf85ec69.jpg132955271758296832 0
+58C:\Users\Laptop\Desktop\Moshifyd\dist\support.cf85ec69.jpg132955301653601046 0
 83C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\src\public\Dependency.js132954593532223943 0
 84C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\src\public\Environment.js132954593532654076 0
 76C:\Users\Laptop\Desktop\Moshifyd\node_modules\@parcel\core\lib\AssetGraph.js132954593529864547 0
@@ -4198,16 +4201,14 @@
 50C:\Users\Laptop\Desktop\Moshifyd\images\sprite.svg132936477539061627 0
 51C:\Users\Laptop\Desktop\Moshifyd\images\support.jpg132524713720000000 0
 55C:\Users\Laptop\Desktop\Moshifyd\images\testimonial.jpg132525353420000000 0
-57C:\Users\Laptop\Desktop\Moshifyd\dist\banner.abcfdfe2.png132955271758286804 0
-62C:\Users\Laptop\Desktop\Moshifyd\dist\faviconn-md.f54a8be6.png132955271758286804 0
-55C:\Users\Laptop\Desktop\Moshifyd\dist\index.58675ecb.js132955271758296832 0
-59C:\Users\Laptop\Desktop\Moshifyd\dist\index.58675ecb.js.map132955271758296832 0
-56C:\Users\Laptop\Desktop\Moshifyd\dist\index.cee20f76.css132955271758296832 0
-55C:\Users\Laptop\Desktop\Moshifyd\dist\ipad.75e1279a.png132955271758296832 0
-58C:\Users\Laptop\Desktop\Moshifyd\dist\popular.ca183884.svg132955271758296832 0
-62C:\Users\Laptop\Desktop\Moshifyd\dist\testimonial.479a636c.jpg132955271758286804 0
+57C:\Users\Laptop\Desktop\Moshifyd\dist\banner.abcfdfe2.png132955301653601046 0
+62C:\Users\Laptop\Desktop\Moshifyd\dist\faviconn-md.f54a8be6.png132955301653601046 0
+56C:\Users\Laptop\Desktop\Moshifyd\dist\index.cee20f76.css132955301653611027 0
+55C:\Users\Laptop\Desktop\Moshifyd\dist\ipad.75e1279a.png132955301653601046 0
+58C:\Users\Laptop\Desktop\Moshifyd\dist\popular.ca183884.svg132955301653601046 0
+62C:\Users\Laptop\Desktop\Moshifyd\dist\testimonial.479a636c.jpg132955301653601046 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\e3132954543768117218 1
-60C:\Users\Laptop\Desktop\Moshifyd\dist\wordpress.69715792.jpg132955271758296832 0
+60C:\Users\Laptop\Desktop\Moshifyd\dist\wordpress.69715792.jpg132955301653601046 0
 55C:\Users\Laptop\Desktop\Moshifyd\components\badges.html132936313617976866 0
 55C:\Users\Laptop\Desktop\Moshifyd\components\button.html132937127869377344 0
 56C:\Users\Laptop\Desktop\Moshifyd\components\callout.html132938929931265420 0
@@ -4219,7 +4220,6 @@
 54C:\Users\Laptop\Desktop\Moshifyd\components\input.html132937150981932637 0
 54C:\Users\Laptop\Desktop\Moshifyd\components\links.html132936290012934783 0
 54C:\Users\Laptop\Desktop\Moshifyd\components\lists.html132936474515202412 0
-52C:\Users\Laptop\Desktop\Moshifyd\components\mainn.js132539214570000000 0
 62C:\Users\Laptop\Desktop\Moshifyd\components\media-objects.html132938094468770775 0
 64C:\Users\Laptop\Desktop\Moshifyd\components\navigationlinks.html132941605951168842 0
 42C:\Users\Laptop\Desktop\Moshifyd\.cache\00132954543761925257 1
